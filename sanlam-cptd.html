@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanlam - CPTD Points</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="School Logo" style="width: 200px; height: auto;">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="sanlam-cptd.html">CPTD Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class = "cptd-info">
+        <h2>What is CPTD?</h2>
+        <p>The Continuing Professional Teacher Development (CPTD) system is a professional development system for teachers in South Africa. It is designed to support teachers in their ongoing professional growth and development.
+        The CPTD system is based on the principles of lifelong learning and aims to enhance the quality of teaching and learning in South African schools.</p>
+        <p><strong>Sanlam</strong> is a registered service provider with the South African Council for Educators (SACE) and is able to provide CPTD points for teachers who complete their training. Educators are required to achieve tleast 150 points every 3 years by participating in various activities.</p>
+        <p><strong>Sanlam</strong> offers a variety of activities through CPTD programmes that are designed to meet the needs of teachers at different stages of their careers. These programmes cover a range of topics, including classroom management, curriculum development, and assessment strategies. To find out more click <a href="sanlam-cptd.html">here </a> or scroll down.</p>
+    </section>
+
+    <section class = "cptd-form">
+        <h2>Sanlam CPTD Application Form</h2>
+        <p>To apply for CPTD points through Sanlam, teachers must complete the following application form:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="School email only" required><br><br>
+            <input type="date" id="date" name="date" required><br><br>
+            <label for="available">Please check the calender for available dates and time.</label><br>
+            <label for="comments">Description:</label><br>
+            <textarea id="description" name="description" placeholder="What do you need us for?" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
